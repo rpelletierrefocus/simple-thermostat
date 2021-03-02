@@ -721,15 +721,15 @@ class SimpleThermostat extends LitElement {
   }
 }
 
-window.customElements.define('simple-thermostat', SimpleThermostat)
+window.customElements.define('water-heater', SimpleThermostat)
 
 export default SimpleThermostat
 
 // Configures the preview in the Lovelace card picker
 window.customCards = window.customCards || []
 window.customCards.push({
-  type: 'simple-thermostat',
-  name: 'Simple Thermostat',
+  type: 'water-heater',
+  name: 'Water Heater',
   preview: false,
   description: 'A different take on the thermostat card',
 })
